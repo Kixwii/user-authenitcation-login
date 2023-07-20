@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" type="text/css" href="signup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400&family=Raleway:wght@900&display=swap" rel="stylesheet">
+  <script src="signup.js"></script>
+ </head>
+ <body>
+   <div class="container">
+    <div class="image">
+    </div>
+    <div class="signup-form">
+      <h2>Sign Up</h2>
+      <form id="signupForm" action="register.php" method="POST"> <!-- Replace with the appropriate action URL for registering -->
+        <div class="error-message"></div>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+   </div>
+ </body>
+</html>
